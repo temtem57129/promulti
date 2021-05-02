@@ -1,6 +1,5 @@
-<htlm>
-<head>
-  
+<html>
+  <head>
     <style>
 *,html{
 width:100%;
@@ -43,6 +42,8 @@ font-size:13px;
 color:gray;
 }
 
+}
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -65,62 +66,65 @@ color:gray;
 }
 
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
-/*CAROUSEL ปรับด่านบน*/
-#myCarousel h1{
-position:absolute;
-z-index:1;
-display:flex;
-align-items:center;
-justify-content: center;
-top:30%;
-font-family: 'Itim', cursive;
-color:#fff;
+.test {
+  width:70%;
+  height:70%;
+  margin:50px 325px;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-#myCarousel .sub-title,#myCarousel .btn1{
-color:#fff;
-position:absolute;
-z-index:1;
-display:flex;
-align-items:center;
-justify-content: center;
-top:30%;
+.test2 {
+  width:25%;
+  height:25%;
+  margin:50px 325px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-#myCarousel .btn1{
-position:absolute;
-top:50%;
-left:45%;
+.test3{
+  width:20%;
+  height:10%;
+  margin:-350px 1450px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: absolute;
 }
-.carousel-inner{
-max-height:100vh;
-width:100%;
+.font {
+  width:70%;
+  height:25%;
+  margin:10px 325px;
+  font-family: 'Itim', cursive;
+  font-size: 30px;}
+.font2 {
+  width:40%;
+  height:30%;
+  margin:30px 1000px;
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+  position: absolute;
 }
-#myCarousel img{
-height:100%;
-width:100%;
+.font3{
+  width:40%;
+  height:30%;
+  margin:100px 300px;
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+}
+.font4{
+  width:70%;
+  height:30%;
+  margin:100px 300px;
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+ 
+}
+.font5{
+  width:70%;
+  height:30%;
+  margin:100px 480px;
+  font-family: 'Itim', cursive;
+  font-size: 30px;
 
+ 
 }
-@media (max-width:600px){
-#myCarousel .btn1{
-position:absolute;
-left:30%;
-top:55%;
-}
-.carousel-inner{
-max-height:70vh;
-width:100%;
-}
-#myCarousel img{
-height:70vh;
-width:100%;
-}
-}
-
-
 /*SECTION1 ข่าว*/
 .container{
 width:95%;
@@ -135,10 +139,9 @@ align-items:center;
   border-radius: 25px;
 justify-content: center;
 position:relative;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-top:-50px;
-height:35vh;
+top:-70px;
+height:20vh;
 overflow-x:auto;
 scrollbar-width:none;
 scroll-behavior: smooth;
@@ -191,92 +194,6 @@ min-width:300px;
 
 
 
-/*SECTION2 ตรงอุตสหกรรมคืออะไร*/
-.content{
-width:100%;
-display:block;
-height:40vh;
-background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://cdn.discordapp.com/attachments/428864552931950592/834361621303656458/unknown.png");
-background-attachment:fixed;
-background-size:100% 100%;
-
-
-}
-.content table{
-width:85%;
-}
-.content table td{
-width:50%;
-text-align:left;
-}
-.content .title{
-color:#fff;
-}
-.content table td img{
-width:90%;
-max-height:60%;
-}
-.content em{
-color:#190e0d;
-}
-.content p{
-color:#000;
-}
-.content table td:nth-child(2){
-padding-left:40px;
-}
-@media (max-width:600px){
-.content{
-padding:10px 0px;
-height:100%;
-background-attachment:local;
-}
-.content table{
-width:90%;
-}
-.content table td:nth-child(2){
-padding-left:10px;
-}
-.content table td{
-width:100%;
-display:block;
-}
-}
-
-
-
-
-/*SECTION3 ผลกระทบ*/
-
-.section3{
-width:90%;
-height:50vh;
-}
-
-.section3 table{
-width:100%;
-  
-}
-.section3 table td{
-width:50%;
-}
-.section3 table td img{
-width:200px;
-height:200px;
-pointer-events:none;
-}
-.section3 table td b{
-color:green;
-}
-.section3 table td:nth-child(2){
-padding-left:50px;
-}
-.section3 .carousel-control{
-background:transparent;
-}
-.section3 .glyphicon{
-color:#000;
-}
 @media (max-width:600px){
 .section3 table td{
 width:100%;
@@ -318,19 +235,10 @@ padding-left:20px;
 	width: 50%;
 	height: 50%;
 }
-
-
-
-
-
-
-
-
     </style>
-
-</head>
-<body>
-<!--META TAGS-->
+  </head>
+  <body>
+      
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
@@ -340,90 +248,41 @@ padding-left:20px;
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-
-<div id= "test">
-    <div id="myCarousel" class="carousel slide" data- ride="carousel">
-    <h1>"กินผักให้มากกินเนื้อให้น้อย"</h1>
-
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="https://cdn.discordapp.com/attachments/428864552931950592/834353470839586816/cutscene1_ge.png" alt="Organic" >
-      </div>
-      <div class="item">
-        <img src="https://cdn.discordapp.com/attachments/428864552931950592/834353480483209226/cutscene1.png" alt="Organic">
-      </div>
-    </div>
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
- </div>
+<div class= "test">
+        <img src="https://imgur.com/UoRAq7l.jpg" >
 </div>
 
 <a>.</a>
-
-<!--SECTION2-->
-<center>
-<div class="content" id="about">
-<table>
-<tr>
-<td>
-<img src="https://cdn.discordapp.com/attachments/428864552931950592/834354989585399838/unknown.png" alt="Organic" class=" inline-photo show-on-scroll" style="width:75%;height:40vh;" >
-</td>
-<td>
-<h1 class="title"><em style="color:red">อุตสาหกรรมเนื้อสัตว์คืออะไร</em></h1>
-<p class="title" style="color:black" >การผลิตเนื้อสัตว์และผลิตภัณฑ์นมเชิงอุตสาหกรรมทั่วโลกกำลังขยายตัว ซึ่งระบบอาหารระบบนี้เป็นหนึ่งในตัวการที่ทำให้โลกสูญเสียความหลากหลายทางชีวภาพและทำให้มนุษย์เราสูญเสียสุขภาพที่ดี </p>
-
-</td>
-</tr>
-</table>
+<div class=font>
+<h2 style = "font-size: 50px;">อุตสาหกรรมเนื้อสัตว์ คืออะไร?</h2>
+<p>คุณคงกำลังสงสัย เกมที่คุณเล่นนั้นมันต้องการสื่อถึงอะไร? เราจะให้คำตอบแก่คุณเอง และเรามีบทสรุปเกมให้คุณด้านบนด้วย</p>
+</div>
+<div class=font2><p>อุตสาหกรรมเนื้อสัตว์ หรือเรียกง่ายๆ ว่า โรงงานผลิตเนื้อสัตว์
+คือ การผลิตเนื้อสัตว์และผลิตภัณฑ์นมเชิงอุตสาหกรรมทั่วโลกกำลังขยายตัว ซึ่งระบบอาหารระบบนี้เป็นหนึ่งในตัวการที่ทำให้โลกสูญเสียความหลากหลายทางชีวภาพและทำให้มนุษย์เราสูญเสียสุขภาพที่ดี
+<p></div>
+  </h2>
+<div class="test2">
+  <img  src="https://cdn.discordapp.com/attachments/808962151649378330/838342536783069194/4aaef3e50074e2fe.png" >
 </div>
 
-
-
-<!--SECTION3-->
-<div class="section3" id="Organic">
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <table>
-      <tr>
-      <td>
-      <h3 class="title"><em style="color:red">ผลกระทบจากอุตสาหกรรม</em></h3>
-      <p class="title">
-   อุตสาหรรมเนื้อสัตว์ได้ทิ้งร่องรอยความเสียหายไว้มากมายทั่วโลก ตั้งแต่การเปลี่ยนแปลงสภาพภูมิอากาศ ไฟป่า ไปจนถึงการละเมิดสิทธิมนุษยชน ชีวิตของผู้คนนับล้านขึ้นอยู่กับการลดการบริโภคเนื้อสัตว์และผลิตภัณฑ์นมลงอย่างรวดเร็ว และไม่ใช่เพียงแค่เนื้อแดงเท่านั้นที่เป็นปัญหา
- </p>
-      </td>
-       <td>
-        <img src="https://cdn.discordapp.com/attachments/428864552931950592/834355599881797652/unknown.png" class=" inline-photo show-on-scroll" alt="Organic" 
-             style="width:75%;height:40vh;">
-      </td>
-      </tr>
-      </table>
-    </div>
-    
+<div class=font3>ขึ้นชื่อว่าโรงงานก็บ่งบอกถึงผลเสียต่างๆได้ เช่น ของเสียจากโรงงานอุตสาหกรรมอย่างน้ำเสีย ก๊าซคาร์บอนไดออกไซด์ที่จะส่งผลให้โลกร้อน และโดยเฉพาะอย่างยิ่งการบุกรุกพื้นที่ป่าเพื่ออุตสาหกรรมส่งผลต่อความหลากหลายทางชีวภาพหรือก็คือการที่สัตว์ป่ามีความเสี่ยงที่จะสูญพันธุ์ เพราะไม่มีที่อยู่อาศัยนั่นเอง 
 </div>
+<div class="test3">
+  <img  src="https://cdn.discordapp.com/attachments/808962151649378330/838341901002211338/3ca9dd02-gp0stomh0_pressmedia-2048x1366-1.jpg" >
+</div>
+<div class=font4> และที่บอกว่าทำให้มนุษย์เราสูญเสียสุขภาพที่ดี คือ การที่อุตสาหกรรมเนื้อสัตว์ต่างๆนั้น ต้องการที่จะมีกำไร และผลผลิตในจำนวนมาก จึงมีการใช้ยาปฏิชีวนะในการเร่งการเจริญเติบโตของสัตว์ ทำให้สัตว์เหล่านั้นมีสารเคมีตกค้าง เมื่อเราทานเนื้อสัตว์ สารตกค้างนั้นจะอยู่ตกค้างภายในร่างกายของเราแทน
+
+แต่นั่นไม่ได้หมายความว่าเราห้ามคุณกินเนื้อสัตว์ เพียงแต่ต้องการให้คุณได้ตระหนักรู้ถึงความอันตรายของการบริโภคเนื้อสัตว์
+เพราะจุดมุ่งหมายของเรา คือ “กินเนื้อให้น้อย กินผักให้มาก”
+การให้คุณได้คิด ได้เลือกในสิ่งที่ตนเองต้องการ ก่อนที่จะบริโภค เพราะนั่นคือสิทธิ์ของคุณ
+</div>
+<div class=font5> แล้วคุณรู้หรือเปล่า ผลกระทบพวกนี้ก็ประเทศไทยของเราเป็นส่วนหนึ่งด้วย เนื่องจากอุตสาหกรรมเนื้อสัตว์ที่กำลังเติบโต
 </div>
 
-
-
-</center>
 <div class="container">
 <!--CARDS-->
 <div class="section1">
+  
 <div class="card inline-photo show-on-scroll">
 <h4>ป่าสงวนถูกบุกรุกแผ้วถางป่า
 เพื่อปลูกพืชเชิงเดี่ยว</h4>
@@ -439,23 +298,24 @@ padding-left:20px;
 <h4>ฝนตก ขี้หมูไหล หายนะที่บังเกิดจากอุตสาหกรรมปศุสัตว์</h4>
 <a href="https://www.greenpeace.org/thailand/story/2862/cost-industry-farming/">อ่านเพิ่มเติม</a>
 </div>
+</div>
+</div>
+ <div class=font4> 
+นั่นจึงเป็นสาเหตุที่องค์กรกรีนพีซกำลังเรียกร้องให้มีการเปลี่ยนแปลงวิถีการกินและการผลิตเนื้อเชิงอุตสาหกรรมอันเนื่องมาจากผลกระทบของการผลิตเนื้อสัตว์เชิงอุตสาหกรรมที่มีต่อสุขภาพอนามัยของมนุษย์ สิ่งแวดล้อมและสภาพภูมิอากาศ
 
+ให้รัฐบาลทุกประเทศล้มเลิกนโยบายสนับสนุนการผลิตเนื้อสัตว์เชิงอุตสาหกรรม  แต่ให้ช่วยเกษตรกรให้หันไปทำเกษตรกรรมเชิงนิเวศและทำปศุสัตว์ในปริมาณที่เหมาะสม
+หากคุณสนใจที่จะเป็นส่วนหนึ่งของแรงสนับสนุน ขอเชิญได้ที่ <a href="https://act.greenpeace.org/page/44444/petition/1?ea.tracking.id=Planet4&_ga=2.145546036.1232744481.1619950586-746889309.1612951775"><img style="  width:10%;
+  height:10%;"src=https://www.greenpeace.org/thailand/wp-content/themes/planet4-master-theme/images/Greenpeace-logo.png></img></a>
 </div>
-</div>
+<p>.</p>
   <div class="videoWrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zbf_XxeuRZo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-
-
-      <!--javascript-->
-      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      
-
-</body>
-
+  </body>
 <script>
+
+
+
 //SCROLL EVENT
 window.onscroll = function() {myFunction()};
 
@@ -505,6 +365,5 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
-
 </script>
-
+</html>
