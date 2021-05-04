@@ -69,12 +69,25 @@ font-family: 'Itim', cursive;
     font-size: 4vh;
 }
 
+.w3-content .w3-display-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.hero{
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    display: block;
+    right: -12%;
+    top: -8%;
+}
+
 .test {
   width:70%;
   height:70%;
   position: relative;
   left: 15%;
-  top: 5%;
+  top: 2%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .test2 {
@@ -95,26 +108,28 @@ font-family: 'Itim', cursive;
   left: 60%;
 }
 .font {
-  width:70%;
+  width:50%;
   height:15%;
   position: relative;
   font-family: 'Itim', cursive;
   font-size:3vh;
-  background-color: rgb(255, 254, 254);
+  background-color: #f9957f;
   display: block;
   left: 15%;
-  top: 30%;
+  top: 25%;
+  border-radius: 2vh;
 }
 .font2 {
   width:40%;
-  height:30%;
+  height:25%;
   font-family: 'Itim', cursive;
   font-size:3vh;
   position: relative;
   left: 45%;
-  top: 40%;
-  background-color: rgb(255, 254, 254);
+  top: 35%;
+  background-color: #f9957f;
   display: block;
+  border-radius: 2vh;
 }
 .font3{
   width:40%;
@@ -124,8 +139,9 @@ font-family: 'Itim', cursive;
   font-size:3vh;
   left: 15%;
   top: 20%;
-  background-color: rgb(255, 254, 254);
+  background-color: #f9957f;
   display: block;
+  border-radius: 2vh;
 }
 .font4{
   width:70%;
@@ -135,35 +151,57 @@ font-family: 'Itim', cursive;
   font-size:3vh;
   left: 15%;
   top: 15%;
-  background-color: rgb(255, 254, 254);
+  background-color: #f9957f;
+  border-radius: 2vh;
 
 }
 .font45{
-  width:90%;
-  height:30%;
+  width:40%;
+  height:5%;
   position: relative;
   font-family: 'Itim', cursive;
   font-size:3vh;
-  left: 35%;
+  left: 30%;
   top: 20%;
+  background-color: #f9957f;
+  border-radius: 2vh;
+  z-index: 1;
+  text-align: center;
 }
 .font5{
-  width:90%;
-  height:30%;
+  width:70%;
+  height:5%;
   position: relative;
   font-family: 'Itim', cursive;
   font-size:3vh;
-  top: 10%;
+  top: 30%;
   left: 15%;
+  background-color: #f9957f;
+  border-radius: 2vh;
 }
 .font6{
   width:70%;
-  height:30%;
+  height:20%;
   position: relative;
   font-family: 'Itim', cursive;
   font-size:3vh;
   left: 15%;
-  top: 10%;
+  top: 40%;
+  background-color: #f9957f;
+  border-radius: 2vh;
+}
+
+.font7{
+    width: 20%;
+    height: 10%;
+    position: relative;
+    font-family: 'Itim', cursive;
+  font-size:3vh;
+  background-color: #f9957f;
+  border-radius: 2vh;
+  left: 40%;
+  top: 45%;
+  text-align: center;
 }
 
 .mySlides {display:none;}
@@ -174,6 +212,9 @@ width:95%;
 display:flex;
 align-items:center;
 justify-content: center;
+position: relative;
+top: 35%;
+
 }
 .section1{
 width:100%;
@@ -183,7 +224,7 @@ align-items:center;
 justify-content: center;
 position:relative;
   transition: 0.3s;
-top:-10%;
+  top:-10%;
 height:20vh;
 overflow-x:auto;
 scrollbar-width:none;
@@ -270,11 +311,11 @@ padding-left:20px;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: -250px;
 	height: 0;
-	margin:300px 0px;
+	margin:400px 0px;
 }
 .videoWrapper iframe {
 	position: absolute;
-	top: 100px;
+	top: 400px;
 	left: 25%;
 	width: 50%;
 	height: 50%;
@@ -318,13 +359,16 @@ padding-left:20px;
 <div class=font>
 <h2 style = "font-size:6vh;">อุตสาหกรรมเนื้อสัตว์ คืออะไร?</h2>
 <p>คุณคงกำลังสงสัย เกมที่คุณเล่นนั้นมันต้องการสื่อถึงอะไร? เราจะให้คำตอบแก่คุณเอง </p>
+    <img class="hero" src="https://imgur.com/YsAzZ43.png">
 </div>
+
 <div class=font2><p><b>อุตสาหกรรมเนื้อสัตว์</b> หรือเรียกง่ายๆ ว่า โรงงานผลิตเนื้อสัตว์
 คือ การผลิตเนื้อสัตว์และผลิตภัณฑ์นมเชิงอุตสาหกรรมทั่วโลกกำลังขยายตัว ซึ่งระบบอาหารระบบนี้เป็นหนึ่งในตัวการที่ทำให้โลกสูญเสียความหลากหลายทางชีวภาพและทำให้มนุษย์เราสูญเสียสุขภาพที่ดี
-<p></div>
+</p>
+</div>
   </h2>
 <div class="test2">
-  <img  src="https://cdn.discordapp.com/attachments/808962151649378330/838342536783069194/4aaef3e50074e2fe.png" >
+  <img src="https://cdn.discordapp.com/attachments/808962151649378330/838342536783069194/4aaef3e50074e2fe.png" >
 </div>
 
 <div class=font3>ขึ้นชื่อว่าโรงงานก็บ่งบอกถึงผลเสียต่างๆได้ เช่น ของเสียจากโรงงานอุตสาหกรรมอย่างน้ำเสีย ก๊าซคาร์บอนไดออกไซด์ที่จะส่งผลให้โลกร้อน และโดยเฉพาะอย่างยิ่งการบุกรุกพื้นที่ป่าเพื่ออุตสาหกรรมส่งผลต่อความหลากหลายทางชีวภาพหรือก็คือการที่สัตว์ป่ามีความเสี่ยงที่จะสูญพันธุ์ เพราะไม่มีที่อยู่อาศัยนั่นเอง 
@@ -342,7 +386,7 @@ padding-left:20px;
     ต่อไป เราไปดูผลกระทบจากอุตสาหกรรมเนื้อสัตว์กันเถอะ 
 </div>
 
-<div class="w3-content w3-display-container">
+<div style="position: relative; top: 25%;" class="w3-content w3-display-container">
 
     <div class="w3-display-container mySlides">
       <img src="https://i.pinimg.com/originals/e8/df/b7/e8dfb7cacac3261dc2c1cf74742084f0.jpg" style="width:100%">
@@ -414,8 +458,10 @@ padding-left:20px;
 นั่นจึงเป็นสาเหตุที่องค์กรกรีนพีซกำลังเรียกร้องให้มีการเปลี่ยนแปลงวิถีการกินและการผลิตเนื้อเชิงอุตสาหกรรมอันเนื่องมาจากผลกระทบของการผลิตเนื้อสัตว์เชิงอุตสาหกรรมที่มีต่อสุขภาพอนามัยของมนุษย์ สิ่งแวดล้อมและสภาพภูมิอากาศ
 
 ให้รัฐบาลทุกประเทศล้มเลิกนโยบายสนับสนุนการผลิตเนื้อสัตว์เชิงอุตสาหกรรม  แต่ให้ช่วยเกษตรกรให้หันไปทำเกษตรกรรมเชิงนิเวศและทำปศุสัตว์ในปริมาณที่เหมาะสม
-หากคุณสนใจที่จะเป็นส่วนหนึ่งของแรงสนับสนุน ขอเชิญได้ที่ <a href="https://act.greenpeace.org/page/44444/petition/1?ea.tracking.id=Planet4&_ga=2.145546036.1232744481.1619950586-746889309.1612951775"><img style="  width:10%;
-  height:10%;"src=https://www.greenpeace.org/thailand/wp-content/themes/planet4-master-theme/images/Greenpeace-logo.png></img></a>
+หากคุณสนใจที่จะเป็นส่วนหนึ่งของแรงสนับสนุน</div> 
+<div class="font7">
+ขอเชิญได้ที่ <a href="https://act.greenpeace.org/page/44444/petition/1?ea.tracking.id=Planet4&_ga=2.145546036.1232744481.1619950586-746889309.1612951775"><img style="  width:100%;
+  height:100%;"src=https://www.greenpeace.org/thailand/wp-content/themes/planet4-master-theme/images/Greenpeace-logo.png></img></a>
 </div>
 <br />
   <div class="videoWrapper">
